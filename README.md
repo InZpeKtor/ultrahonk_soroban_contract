@@ -11,7 +11,7 @@ and if it's valid generate a proof client side that you solved the problem.
 This proof is then sent to the Stellar smart contract `guess-the-puzzle` which
 itself calls `ultrahonk-soroban-contract` to verify it. Upon proof validation,
 the contract's balance is transferred to the guesser. If the proof is incorrect,
-the guesser incurs a fee for trying which goes increases the contract's balance. 
+the guesser incurs a fee for trying which goes increases the contract's balance.
 
 ### Getting started
 
@@ -47,3 +47,10 @@ https://github.com/jayz22/soroban-examples/tree/p25-preview/p25-preview
 On the contract itself, there is another problem. We are not checking the
 input puzzle and restrict the proof validation to a given puzzle. You can fix
 it!
+
+
+--
+
+
+- guess - `CBQO67T7EWLCE3GL2QTLDPAJNUGLOEUGVXRY6ZWZWWZ7TEAXEOWOQ3QQ`
+- ultrahonk - `CDAJPESIFIQVP7WPKKJ4URAE2VOSME5THCFLS34BCJYZPT2BK24SYFU4`

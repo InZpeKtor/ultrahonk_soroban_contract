@@ -10,7 +10,7 @@ if (typeof window !== 'undefined') {
 export const networks = {
     standalone: {
         networkPassphrase: "Standalone Network ; February 2017",
-        contractId: "CBXWA6DTDZTSOQ4LSUDW4XFUJSZK5MA5T5HEI5GD5ZJGW2OBEHTS4J4W",
+        contractId: "CBQO67T7EWLCE3GL2QTLDPAJNUGLOEUGVXRY6ZWZWWZ7TEAXEOWOQ3QQ",
     }
 };
 export const Errors = {
@@ -31,7 +31,7 @@ export class Client extends ContractClient {
     options;
     static async deploy(
     /** Constructor/Initialization Args for the contract's `__constructor` method */
-    { admin }, 
+    { admin },
     /** Options for initializing a Client as well as for calling a method, with extras specific to deploying. */
     options) {
         return ContractClient.deploy({ admin }, options);

@@ -7,7 +7,7 @@ export * as rpc from '@stellar/stellar-sdk/rpc';
 export declare const networks: {
     readonly standalone: {
         readonly networkPassphrase: "Standalone Network ; February 2017";
-        readonly contractId: "CBXWA6DTDZTSOQ4LSUDW4XFUJSZK5MA5T5HEI5GD5ZJGW2OBEHTS4J4W";
+        readonly contractId: "CBQO67T7EWLCE3GL2QTLDPAJNUGLOEUGVXRY6ZWZWWZ7TEAXEOWOQ3QQ";
     };
 };
 export declare const Errors: {
@@ -193,7 +193,7 @@ export declare class Client extends ContractClient {
     /** Constructor/Initialization Args for the contract's `__constructor` method */
     { admin }: {
         admin: string;
-    }, 
+    },
     /** Options for initializing a Client as well as for calling a method, with extras specific to deploying. */
     options: MethodOptions & Omit<ContractClientOptions, "contractId"> & {
         /** The hash of the Wasm blob, which must already be installed on-chain. */

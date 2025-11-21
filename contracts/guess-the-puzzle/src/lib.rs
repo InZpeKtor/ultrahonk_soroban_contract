@@ -17,7 +17,7 @@ pub struct GuessThePuzzle;
 pub const THE_PUZZLE: &Symbol = &symbol_short!("n");
 pub const ADMIN_KEY: &Symbol = &symbol_short!("ADMIN");
 
-pub const ULTRAHONK_CONTRACT_ADDRESS: &str = "CAXMCB6EYJ6Z6PHHC3MZ54IKHAZV5WSM2OAK4DSGM2E2M6DJG4FX5CPB";
+pub const ULTRAHONK_CONTRACT_ADDRESS: &str = "CDAJPESIFIQVP7WPKKJ4URAE2VOSME5THCFLS34BCJYZPT2BK24SYFU4";
 
 
 #[contractimpl]
@@ -119,4 +119,3 @@ impl GuessThePuzzle {
         admin.require_auth();
     }
 }
-
